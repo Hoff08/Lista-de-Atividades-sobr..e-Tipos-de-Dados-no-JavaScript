@@ -1,0 +1,14 @@
+// Declare as variáveis a e b
+let a = 5;
+let b = 10;
+
+// Compare se a é menor que b
+console.log(a < b); // Saída: true
+
+// Verifique se a é igual a b (==) e estritamente igual a b (===)
+console.log(a == b); // Saída: false
+console.log(a === b); // Saída: false
+
+// Compare se a é diferente de b (!=) e estritamente diferente de b (!==)
+console.log(a != b); // Saída: true
+console.log(a !== b); // Saída: true
