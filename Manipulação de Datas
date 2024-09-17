@@ -1,0 +1,13 @@
+// Crie a data do primeiro dia do ano corrente
+let primeiroDiaAno = new Date(new Date().getFullYear(), 0, 1);
+
+// Crie a data de hoje
+let hoje = new Date();
+
+// Calcule a diferença em dias
+let diferencaDias = Math.floor((hoje - primeiroDiaAno) / (1000 * 60 * 60 * 24));
+console.log(diferencaDias); // Exiba a diferença em dias
+
+// Formate a data de hoje
+let dataFormatada = hoje.toLocaleDateString('pt-BR');
+console.log(dataFormatada); // Saída: "DD/MM/YYYY"
